@@ -3,8 +3,10 @@ function calculate(num1, num2, operation) {
     console.log(`Calculating ${num1} ${operation} ${num2}`);
  
     if (operation === "add") {
-        return num1 - num2; 
+        return num1 + num2;    
     }
+    
+
     if (operation === "divide") {
         return num1 / num2;
     }
