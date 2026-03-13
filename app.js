@@ -5,7 +5,9 @@ function calculate(num1, num2, operation) {
     if (operation === "add") {
         return num1; 
     }
- 
+    if (operation === "multiply") {
+        return num1 * num2;
+    }
     return "Operation not implemented";
 }
 console.log(calculate(8, 3, "add")); 
