@@ -3,9 +3,13 @@ function calculate(num1, num2, operation) {
     console.log(`Calculating ${num1} ${operation} ${num2}`);
  
     if (operation === "add") {
-        return num3; 
+        return num1 + num2;    
     }
- 
+    
+
+    if (operation === "divide") {
+        return num1 / num2;
+    }
     return "Operation not implemented";
 }
 console.log(calculate(8, 3, "add")); 
